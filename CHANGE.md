@@ -1,9 +1,46 @@
 Change Log: `yii2-date-range`
 =============================
 
+## Version 1.7.2
+
+**Date:** 29-Jan-2020
+
+- (enh #147): Allow date range picker value to be cleared for preset dropdown.
+- (enh #146): Enhance preset dropdown user interface.
+- (enh #143): Update initSettings to support indexes .
+
+## Version 1.7.1
+
+**Date:** 17-May-2019
+
+- (enh #139): Update Latvian Translations.
+- (enh #134): Merge ranges for preset dropdown.
+- Implement stale bot.
+
+## Version 1.7.0
+
+**Date:** 09-Oct-2018
+
+- Update composer dependencies.
+- (enh #129): Update Russian Translations.
+- (enh #128): Move init moment() variable.
+- Enhancements to support Bootstrap 4.x.
+- (enh #126): Fix `kv-drp-container` CSS style.
+- (enh #125): Add Czech Translations.
+- (enh #122): Better responsive styling of preset dropdown.
+- (bug #119): Correct client validation of model range attributes.
+- (enh #118): More correct predefined default date ranges.
+- Update to latest release v3.0.3 of `daterangepicker` plugin.
+- Reorganize code in `src` folder.
+- (enh #113): Allow specifying direction in preset dropdown.
+
 ## Version 1.6.9
 
-- (bug #104): Allow specifying direction in preset dropdown
+**Date:** 15-Mar-2018
+
+- (enh #112): New boolean property `encodeValue` to HTML encode the value (to prevent XSS).
+- (enh #81, #108): Enhance empty date validation.
+- (bug #104, bug #111): Allow specifying direction in preset dropdown.
 
 ## Version 1.6.8
 
